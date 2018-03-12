@@ -1,6 +1,9 @@
 # index-after-Braker
-this is a pipeline to re-index annotation produced by Braker including adjusted python scripts developed by Rens Homler.
-the original script can only run under python2.x which will produce a new gff3 annotation including 'gene','mRNA' and 'CDS' gene with the new replaced ID name according to your input.
+this pipeline will re-index annotation produced by Braker.
+It includes adjusted python scripts that are eveloped by Rens Homler.
+The scripts will print new gff3 annotation including 'gene','mRNA' and 'CDS' feature with the replaced ID name according to your input.
+Reminder：the scripts can only run under python2.x version. Before running, make sure the sequence IDs from fasta and gff file are identical.
+
 
 process_braker_gff.py: change the ID of all gff feature type according to your input
 
